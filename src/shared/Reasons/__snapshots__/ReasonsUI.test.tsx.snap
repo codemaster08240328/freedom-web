@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReasonsUI Component Test matches snapshot 1`] = `
+.c3 {
+  height: 70px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  display: block;
+}
+
+.c2 {
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  -webkit-transition: all 800ms ease;
+  transition: all 800ms ease;
+  margin-bottom: 30px;
+  position: relative;
+  display: block;
+  min-width: 0;
+  color: #9B9B9B;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  box-shadow: none;
+}
+
+.c1 {
+  padding: 60px 0;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.c1 h2.title {
+  font-size: calc(30px + (30 - 22) * ((50% - 300px) / (1600 - 300)));
+  color: #4A4A4A;
+}
+
+.c0 {
+  padding: 0 0 60px;
+}
+
+@media (min-width:700px) {
+  .c1 {
+    padding: 100px 0 0;
+  }
+}
+
+<section
+  className="c0"
+>
+  <section
+    className="c1"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12 col-md-8 offset-md-2"
+        >
+          <h2
+            className="title"
+          >
+            Why insure with Freedom Life?
+          </h2>
+          <div
+            className="subTitle m-b-10"
+          >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 col-sm-6 col-md-4"
+      >
+        <div
+          className="c2"
+        >
+          <img
+            className="c3"
+            src="/static/img/icons/responsibleIcon.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="mb-3 card-title"
+            >
+              Responsible & Established
+            </h5>
+            <p
+              className="card-text"
+            >
+              With established partners like Old Mutual and Shoprite, you can rely on us for peace of mind.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-12 col-sm-6 col-md-4"
+      >
+        <div
+          className="c2"
+        >
+          <img
+            className="c3"
+            src="/static/img/icons/quickIcon.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="mb-3 card-title"
+            >
+              Quick & Easy
+            </h5>
+            <p
+              className="card-text"
+            >
+              We use the latest technologies, to make the application process as easy as possible.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-12 col-sm-6 col-md-4"
+      >
+        <div
+          className="c2"
+        >
+          <img
+            className="c3"
+            src="/static/img/icons/predictableIcon.png"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="mb-3 card-title"
+            >
+              Predictable & Transparent
+            </h5>
+            <p
+              className="card-text"
+            >
+              Our prices are easy to understand, and won't surprise you with hidden costs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

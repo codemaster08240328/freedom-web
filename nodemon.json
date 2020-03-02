@@ -1,0 +1,8 @@
+{
+  "watch": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.css"],
+  "execMap": {
+    "css": "yarn lint:styles",
+    "tsx": "yarn lint:styles",
+    "ts": "yarn lint && node --inspect=7000 ./node_modules/.bin/ts-node --compilerOptions '{\"module\":\"commonjs\"}'"
+  }
+}

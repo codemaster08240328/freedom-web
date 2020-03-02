@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TitleWithShadow>
+    Title
+  </TitleWithShadow>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": "Title",
+    },
+    "ref": null,
+    "rendered": "Title",
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "TitleWithShadowstyle__H1-sc-1jtf9x6-0",
+        "isStatic": true,
+        "rules": Array [
+          "padding:20px 0;text-align:center;font:16px/1 sans-serif;box-shadow:0 4px 2px -2px rgba(00,00,00,0.2);",
+        ],
+      },
+      "displayName": "TitleWithShadowstyle__H1",
+      "render": [Function],
+      "styledComponentId": "TitleWithShadowstyle__H1-sc-1jtf9x6-0",
+      "target": "h1",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": "Title",
+      },
+      "ref": null,
+      "rendered": "Title",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "TitleWithShadowstyle__H1-sc-1jtf9x6-0",
+          "isStatic": true,
+          "rules": Array [
+            "padding:20px 0;text-align:center;font:16px/1 sans-serif;box-shadow:0 4px 2px -2px rgba(00,00,00,0.2);",
+          ],
+        },
+        "displayName": "TitleWithShadowstyle__H1",
+        "render": [Function],
+        "styledComponentId": "TitleWithShadowstyle__H1-sc-1jtf9x6-0",
+        "target": "h1",
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

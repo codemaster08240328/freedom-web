@@ -1,0 +1,20 @@
+default:
+  appName: flsys3-callcenter
+  replicas: 1
+  DEBUG: '*'
+  API_URL: 'https://insurance.atomic.st.freedomstack.net'
+  LEGACY_SITE_URL: '/f'
+  NODE_ENV: 'staging'
+  CONTACTUS_URL: 'https://api.shoprite.io/api/v1/ContactUs'
+  SI_API_USERNAME: '485ae93ecad5d39b0ee44e8e4d0dcb2b'
+  SI_API_PASSWORD: '51e050c49c17d66f4c54beddb38f46e7'
+  SI_API_SIGNATURE: 'd7db3d80a6fa99676324682e1812f1f7'
+SI_API_HEADER: 'Basic NjlBMDU2QjBFRjM0QTBFRTVGOEIyNUYwNzMwNEFEQjBEMjk4QTJDOTo1QzY2OUM1REU4QjFGRUIzMTFCODk5M0Q3OTA0MjBCRkFFNUJBNTUy'
+
+production:
+  replicas: 2
+
+staging:
+  replicas: 1
+  hosts:
+  - host: 'callcenter.atomic.st.freedomstack.net'

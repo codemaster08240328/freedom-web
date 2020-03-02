@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint:latest",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "no-submodule-imports": false,
+    "variable-name": false,
+    "import-name": false,
+    "ordered-imports": false,
+    "no-console": false,
+    "prefer-array-literal": false,
+    "no-var-requires": false,
+    "class-name": true,
+    "member-access": [true, "no-public"],
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "no-implicit-dependencies": false,
+    "object-literal-sort-keys": false,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "no-var-keyword": true,
+    "no-internal-module": true,
+    //    "no-null-keyword": true,
+    "prefer-const": true,
+    "jsdoc-format": true
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*"
+    ]
+  }
+}

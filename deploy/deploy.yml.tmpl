@@ -1,0 +1,72 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: '{{ appName }}'
+  labels:
+    app: '{{ appName }}'
+spec:
+  replicas: {{ replicas }}
+  selector:
+    matchLabels:
+      app: '{{ appName }}'
+  template:
+    metadata:
+      labels:
+        app: '{{ appName }}'
+
+    spec:
+      containers:
+        - name: '{{ appName }}'
+          image: '{{ IMAGE_URI }}'
+          imagePullPolicy: Always
+          env:
+          - name: NODE_ENV
+            value: '{{NODE_ENV}}'
+          - name: API_URL
+            value: '{{API_URL}}'
+          - name: LEGACY_SITE_URL
+            value: '{{LEGACY_SITE_URL}}'
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: '{{ appName }}'
+  labels:
+    app: '{{ appName }}'
+spec:
+  selector:
+    app: '{{ appName }}'
+  ports:
+    - port: 80
+      protocol: TCP
+      targetPort: 3000
+
+{{#if hosts}}
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: '{{ appName }}'
+  labels:
+    app: '{{ appName }}'
+spec:
+  rules:
+    {{#each hosts }}
+    - host: '{{ host }}'
+      http:
+        paths:
+          - backend:
+              serviceName: '{{ ../appName }}'
+              servicePort: 80
+    {{/each}}
+  tls:
+  {{#each hosts}}
+  - hosts:
+    - '{{ host }}'
+     {{#if secretName}}
+    secretName: '{{secretName}}'
+     {{/if}}
+
+  {{/each}}
+{{/if}}

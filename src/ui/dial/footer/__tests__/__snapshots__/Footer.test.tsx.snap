@@ -1,0 +1,1655 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dial footer Component should match snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FooterView
+    store={DialStore {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <ForwardRef>
+        <ForwardRef
+          id="dialFooterStartCallButton"
+          onClick={[Function]}
+        >
+          <ForwardRef>
+            <ForwardRef
+              icon={
+                Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f095",
+                    "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                  ],
+                  "iconName": "phone",
+                  "prefix": "fas",
+                }
+              }
+            />
+            <ForwardRef
+              icon={
+                Object {
+                  "icon": Array [
+                    448,
+                    512,
+                    Array [],
+                    "f061",
+                    "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                  ],
+                  "iconName": "arrow-right",
+                  "prefix": "fas",
+                }
+              }
+            />
+          </ForwardRef>
+          <ForwardRef>
+            Dial
+          </ForwardRef>
+        </ForwardRef>
+        <ForwardRef
+          id="dialFooterEndCallButton"
+          onClick={[Function]}
+        >
+          <ForwardRef>
+            <ForwardRef
+              icon={
+                Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f095",
+                    "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                  ],
+                  "iconName": "phone",
+                  "prefix": "fas",
+                }
+              }
+            />
+          </ForwardRef>
+          <ForwardRef>
+            End Call
+          </ForwardRef>
+        </ForwardRef>
+        <ForwardRef
+          id="dialFooterParkCallButton"
+          onClick={[Function]}
+        >
+          <ForwardRef>
+            <ForwardRef
+              icon={
+                Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f6a9",
+                    "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                  ],
+                  "iconName": "volume-mute",
+                  "prefix": "fas",
+                }
+              }
+            />
+          </ForwardRef>
+          <ForwardRef
+            id="dialFooterParkCallText"
+          >
+            Park Call
+          </ForwardRef>
+        </ForwardRef>
+      </ForwardRef>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <ForwardRef
+            id="dialFooterStartCallButton"
+            onClick={[Function]}
+          >
+            <ForwardRef>
+              <ForwardRef
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f095",
+                      "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                    ],
+                    "iconName": "phone",
+                    "prefix": "fas",
+                  }
+                }
+              />
+              <ForwardRef
+                icon={
+                  Object {
+                    "icon": Array [
+                      448,
+                      512,
+                      Array [],
+                      "f061",
+                      "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                    ],
+                    "iconName": "arrow-right",
+                    "prefix": "fas",
+                  }
+                }
+              />
+            </ForwardRef>
+            <ForwardRef>
+              Dial
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef
+            id="dialFooterEndCallButton"
+            onClick={[Function]}
+          >
+            <ForwardRef>
+              <ForwardRef
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f095",
+                      "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                    ],
+                    "iconName": "phone",
+                    "prefix": "fas",
+                  }
+                }
+              />
+            </ForwardRef>
+            <ForwardRef>
+              End Call
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef
+            id="dialFooterParkCallButton"
+            onClick={[Function]}
+          >
+            <ForwardRef>
+              <ForwardRef
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f6a9",
+                      "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                    ],
+                    "iconName": "volume-mute",
+                    "prefix": "fas",
+                  }
+                }
+              />
+            </ForwardRef>
+            <ForwardRef
+              id="dialFooterParkCallText"
+            >
+              Park Call
+            </ForwardRef>
+          </ForwardRef>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f095",
+                        "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                      ],
+                      "iconName": "phone",
+                      "prefix": "fas",
+                    }
+                  }
+                />
+                <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        448,
+                        512,
+                        Array [],
+                        "f061",
+                        "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                      ],
+                      "iconName": "arrow-right",
+                      "prefix": "fas",
+                    }
+                  }
+                />
+              </ForwardRef>,
+              <ForwardRef>
+                Dial
+              </ForwardRef>,
+            ],
+            "id": "dialFooterStartCallButton",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <ForwardRef
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f095",
+                          "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                        ],
+                        "iconName": "phone",
+                        "prefix": "fas",
+                      }
+                    }
+                  />,
+                  <ForwardRef
+                    icon={
+                      Object {
+                        "icon": Array [
+                          448,
+                          512,
+                          Array [],
+                          "f061",
+                          "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                        ],
+                        "iconName": "arrow-right",
+                        "prefix": "fas",
+                      }
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f095",
+                        "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                      ],
+                      "iconName": "phone",
+                      "prefix": "fas",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Footerstyle__TextDialIcon-l94ojh-5",
+                      "isStatic": false,
+                      "rules": Array [
+                        "font-size:24px;transform:rotate(90deg);color:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "Footerstyle__TextDialIcon",
+                    "render": [Function],
+                    "styledComponentId": "Footerstyle__TextDialIcon-l94ojh-5",
+                    "target": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  },
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": Object {
+                      "icon": Array [
+                        448,
+                        512,
+                        Array [],
+                        "f061",
+                        "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                      ],
+                      "iconName": "arrow-right",
+                      "prefix": "fas",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Footerstyle__TextArrowIcon-l94ojh-6",
+                      "isStatic": false,
+                      "rules": Array [
+                        "font-size:16px;transform:rotate(315deg);position:absolute;top:9px;right:7px;color:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "Footerstyle__TextArrowIcon",
+                    "render": [Function],
+                    "styledComponentId": "Footerstyle__TextArrowIcon-l94ojh-6",
+                    "target": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  },
+                },
+              ],
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "Footerstyle__DialIconContainer-l94ojh-4",
+                  "isStatic": false,
+                  "rules": Array [
+                    "height:50px;width:44px;justify-content:center;display:flex;align-items:center;position:relative;",
+                    "background-color:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "Footerstyle__DialIconContainer",
+                "render": [Function],
+                "styledComponentId": "Footerstyle__DialIconContainer-l94ojh-4",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Dial",
+              },
+              "ref": null,
+              "rendered": "Dial",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "Footerstyle__ButtonText-l94ojh-9",
+                  "isStatic": false,
+                  "rules": Array [
+                    "display:flex;flex:1;height:50px;justify-content:center;align-items:center;font-family:\\"Eina03\\",\\"robotoregular\\",sans-serif;font-size:14px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:2.4px;color:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "Footerstyle__ButtonText",
+                "render": [Function],
+                "styledComponentId": "Footerstyle__ButtonText-l94ojh-9",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "Footerstyle__Button-l94ojh-2",
+              "isStatic": true,
+              "rules": Array [
+                "padding:0;width:174px;height:50px;border-radius:3px;border:solid 1px #dddddd;background-color:#ffffff;cursor:pointer;box-sizing:content-box;display:flex;&:not(:disabled){outline:none;box-shadow:none;}&:hover{background:#ffffff radial-gradient(circle,transparent 10%,transparent 10%) center/15000%;}&:active{opacity:0.7;}",
+              ],
+            },
+            "displayName": "Footerstyle__Button",
+            "render": [Function],
+            "styledComponentId": "Footerstyle__Button-l94ojh-2",
+            "target": "button",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f095",
+                        "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                      ],
+                      "iconName": "phone",
+                      "prefix": "fas",
+                    }
+                  }
+                />
+              </ForwardRef>,
+              <ForwardRef>
+                End Call
+              </ForwardRef>,
+            ],
+            "id": "dialFooterEndCallButton",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f095",
+                        "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                      ],
+                      "iconName": "phone",
+                      "prefix": "fas",
+                    }
+                  }
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "icon": Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f095",
+                      "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                    ],
+                    "iconName": "phone",
+                    "prefix": "fas",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Footerstyle__TextDialEndCallIcon-l94ojh-8",
+                    "isStatic": false,
+                    "rules": Array [
+                      "font-size:24px;transform:rotate(180deg);color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Footerstyle__TextDialEndCallIcon",
+                  "render": [Function],
+                  "styledComponentId": "Footerstyle__TextDialEndCallIcon-l94ojh-8",
+                  "target": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "Footerstyle__EndCallIconContainer-l94ojh-7",
+                  "isStatic": false,
+                  "rules": Array [
+                    "height:50px;width:44px;justify-content:center;display:flex;align-items:center;position:relative;",
+                    "background-color:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "Footerstyle__EndCallIconContainer",
+                "render": [Function],
+                "styledComponentId": "Footerstyle__EndCallIconContainer-l94ojh-7",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "End Call",
+              },
+              "ref": null,
+              "rendered": "End Call",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "Footerstyle__ButtonText-l94ojh-9",
+                  "isStatic": false,
+                  "rules": Array [
+                    "display:flex;flex:1;height:50px;justify-content:center;align-items:center;font-family:\\"Eina03\\",\\"robotoregular\\",sans-serif;font-size:14px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:2.4px;color:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "Footerstyle__ButtonText",
+                "render": [Function],
+                "styledComponentId": "Footerstyle__ButtonText-l94ojh-9",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "Footerstyle__Button-l94ojh-2",
+              "isStatic": true,
+              "rules": Array [
+                "padding:0;width:174px;height:50px;border-radius:3px;border:solid 1px #dddddd;background-color:#ffffff;cursor:pointer;box-sizing:content-box;display:flex;&:not(:disabled){outline:none;box-shadow:none;}&:hover{background:#ffffff radial-gradient(circle,transparent 10%,transparent 10%) center/15000%;}&:active{opacity:0.7;}",
+              ],
+            },
+            "displayName": "Footerstyle__Button",
+            "render": [Function],
+            "styledComponentId": "Footerstyle__Button-l94ojh-2",
+            "target": "button",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f6a9",
+                        "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                      ],
+                      "iconName": "volume-mute",
+                      "prefix": "fas",
+                    }
+                  }
+                />
+              </ForwardRef>,
+              <ForwardRef
+                id="dialFooterParkCallText"
+              >
+                Park Call
+              </ForwardRef>,
+            ],
+            "id": "dialFooterParkCallButton",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f6a9",
+                        "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                      ],
+                      "iconName": "volume-mute",
+                      "prefix": "fas",
+                    }
+                  }
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "icon": Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f6a9",
+                      "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                    ],
+                    "iconName": "volume-mute",
+                    "prefix": "fas",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Footerstyle__TextVolumeOffIcon-l94ojh-11",
+                    "isStatic": false,
+                    "rules": Array [
+                      "font-size:24px;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Footerstyle__TextVolumeOffIcon",
+                  "render": [Function],
+                  "styledComponentId": "Footerstyle__TextVolumeOffIcon-l94ojh-11",
+                  "target": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                  Symbol(Symbol.hasInstance): [Function],
+                },
+              },
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "Footerstyle__VolumeOffIconContainer-l94ojh-10",
+                  "isStatic": false,
+                  "rules": Array [
+                    "height:50px;width:44px;justify-content:center;display:flex;align-items:center;position:relative;",
+                    "background-color:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "Footerstyle__VolumeOffIconContainer",
+                "render": [Function],
+                "styledComponentId": "Footerstyle__VolumeOffIconContainer-l94ojh-10",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Park Call",
+                "id": "dialFooterParkCallText",
+              },
+              "ref": null,
+              "rendered": "Park Call",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "Footerstyle__ButtonText-l94ojh-9",
+                  "isStatic": false,
+                  "rules": Array [
+                    "display:flex;flex:1;height:50px;justify-content:center;align-items:center;font-family:\\"Eina03\\",\\"robotoregular\\",sans-serif;font-size:14px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:2.4px;color:",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "Footerstyle__ButtonText",
+                "render": [Function],
+                "styledComponentId": "Footerstyle__ButtonText-l94ojh-9",
+                "target": "div",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "Footerstyle__Button-l94ojh-2",
+              "isStatic": true,
+              "rules": Array [
+                "padding:0;width:174px;height:50px;border-radius:3px;border:solid 1px #dddddd;background-color:#ffffff;cursor:pointer;box-sizing:content-box;display:flex;&:not(:disabled){outline:none;box-shadow:none;}&:hover{background:#ffffff radial-gradient(circle,transparent 10%,transparent 10%) center/15000%;}&:active{opacity:0.7;}",
+              ],
+            },
+            "displayName": "Footerstyle__Button",
+            "render": [Function],
+            "styledComponentId": "Footerstyle__Button-l94ojh-2",
+            "target": "button",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "Footerstyle__ButtonsWrapper-l94ojh-1",
+          "isStatic": true,
+          "rules": Array [
+            "display:flex;flex-direction:row;width:560px;justify-content:space-between;align-items:center;",
+          ],
+        },
+        "displayName": "Footerstyle__ButtonsWrapper",
+        "render": [Function],
+        "styledComponentId": "Footerstyle__ButtonsWrapper-l94ojh-1",
+        "target": "div",
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "Footerstyle__FooterMainContainer-l94ojh-0",
+        "isStatic": false,
+        "rules": Array [
+          "height:100px;position:fixed;bottom:0;left:0;right:0;background-color:",
+          [Function],
+          ";display:flex;justify-content:center;",
+        ],
+      },
+      "displayName": "Footerstyle__FooterMainContainer",
+      "render": [Function],
+      "styledComponentId": "Footerstyle__FooterMainContainer-l94ojh-0",
+      "target": "div",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <ForwardRef>
+          <ForwardRef
+            id="dialFooterStartCallButton"
+            onClick={[Function]}
+          >
+            <ForwardRef>
+              <ForwardRef
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f095",
+                      "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                    ],
+                    "iconName": "phone",
+                    "prefix": "fas",
+                  }
+                }
+              />
+              <ForwardRef
+                icon={
+                  Object {
+                    "icon": Array [
+                      448,
+                      512,
+                      Array [],
+                      "f061",
+                      "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                    ],
+                    "iconName": "arrow-right",
+                    "prefix": "fas",
+                  }
+                }
+              />
+            </ForwardRef>
+            <ForwardRef>
+              Dial
+            </ForwardRef>
+          </ForwardRef>
+          <ForwardRef
+            id="dialFooterEndCallButton"
+            onClick={[Function]}
+          >
+            <ForwardRef>
+              <ForwardRef
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f095",
+                      "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                    ],
+                    "iconName": "phone",
+                    "prefix": "fas",
+                  }
+                }
+              />
+            </ForwardRef>
+            <ForwardRef>
+              End Call
+            </ForwardRef>
+          </ForwardRef>
+          <ForwardRef
+            id="dialFooterParkCallButton"
+            onClick={[Function]}
+          >
+            <ForwardRef>
+              <ForwardRef
+                icon={
+                  Object {
+                    "icon": Array [
+                      512,
+                      512,
+                      Array [],
+                      "f6a9",
+                      "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                    ],
+                    "iconName": "volume-mute",
+                    "prefix": "fas",
+                  }
+                }
+              />
+            </ForwardRef>
+            <ForwardRef
+              id="dialFooterParkCallText"
+            >
+              Park Call
+            </ForwardRef>
+          </ForwardRef>
+        </ForwardRef>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef
+              id="dialFooterStartCallButton"
+              onClick={[Function]}
+            >
+              <ForwardRef>
+                <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f095",
+                        "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                      ],
+                      "iconName": "phone",
+                      "prefix": "fas",
+                    }
+                  }
+                />
+                <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        448,
+                        512,
+                        Array [],
+                        "f061",
+                        "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                      ],
+                      "iconName": "arrow-right",
+                      "prefix": "fas",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef>
+                Dial
+              </ForwardRef>
+            </ForwardRef>,
+            <ForwardRef
+              id="dialFooterEndCallButton"
+              onClick={[Function]}
+            >
+              <ForwardRef>
+                <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f095",
+                        "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                      ],
+                      "iconName": "phone",
+                      "prefix": "fas",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef>
+                End Call
+              </ForwardRef>
+            </ForwardRef>,
+            <ForwardRef
+              id="dialFooterParkCallButton"
+              onClick={[Function]}
+            >
+              <ForwardRef>
+                <ForwardRef
+                  icon={
+                    Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f6a9",
+                        "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                      ],
+                      "iconName": "volume-mute",
+                      "prefix": "fas",
+                    }
+                  }
+                />
+              </ForwardRef>
+              <ForwardRef
+                id="dialFooterParkCallText"
+              >
+                Park Call
+              </ForwardRef>
+            </ForwardRef>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef>
+                  <ForwardRef
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f095",
+                          "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                        ],
+                        "iconName": "phone",
+                        "prefix": "fas",
+                      }
+                    }
+                  />
+                  <ForwardRef
+                    icon={
+                      Object {
+                        "icon": Array [
+                          448,
+                          512,
+                          Array [],
+                          "f061",
+                          "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                        ],
+                        "iconName": "arrow-right",
+                        "prefix": "fas",
+                      }
+                    }
+                  />
+                </ForwardRef>,
+                <ForwardRef>
+                  Dial
+                </ForwardRef>,
+              ],
+              "id": "dialFooterStartCallButton",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <ForwardRef
+                      icon={
+                        Object {
+                          "icon": Array [
+                            512,
+                            512,
+                            Array [],
+                            "f095",
+                            "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                          ],
+                          "iconName": "phone",
+                          "prefix": "fas",
+                        }
+                      }
+                    />,
+                    <ForwardRef
+                      icon={
+                        Object {
+                          "icon": Array [
+                            448,
+                            512,
+                            Array [],
+                            "f061",
+                            "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                          ],
+                          "iconName": "arrow-right",
+                          "prefix": "fas",
+                        }
+                      }
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "icon": Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f095",
+                          "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                        ],
+                        "iconName": "phone",
+                        "prefix": "fas",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Footerstyle__TextDialIcon-l94ojh-5",
+                        "isStatic": false,
+                        "rules": Array [
+                          "font-size:24px;transform:rotate(90deg);color:",
+                          [Function],
+                          ";",
+                        ],
+                      },
+                      "displayName": "Footerstyle__TextDialIcon",
+                      "render": [Function],
+                      "styledComponentId": "Footerstyle__TextDialIcon-l94ojh-5",
+                      "target": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                      Symbol(Symbol.hasInstance): [Function],
+                    },
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "icon": Object {
+                        "icon": Array [
+                          448,
+                          512,
+                          Array [],
+                          "f061",
+                          "M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z",
+                        ],
+                        "iconName": "arrow-right",
+                        "prefix": "fas",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "Footerstyle__TextArrowIcon-l94ojh-6",
+                        "isStatic": false,
+                        "rules": Array [
+                          "font-size:16px;transform:rotate(315deg);position:absolute;top:9px;right:7px;color:",
+                          [Function],
+                          ";",
+                        ],
+                      },
+                      "displayName": "Footerstyle__TextArrowIcon",
+                      "render": [Function],
+                      "styledComponentId": "Footerstyle__TextArrowIcon-l94ojh-6",
+                      "target": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                      Symbol(Symbol.hasInstance): [Function],
+                    },
+                  },
+                ],
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Footerstyle__DialIconContainer-l94ojh-4",
+                    "isStatic": false,
+                    "rules": Array [
+                      "height:50px;width:44px;justify-content:center;display:flex;align-items:center;position:relative;",
+                      "background-color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Footerstyle__DialIconContainer",
+                  "render": [Function],
+                  "styledComponentId": "Footerstyle__DialIconContainer-l94ojh-4",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Dial",
+                },
+                "ref": null,
+                "rendered": "Dial",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Footerstyle__ButtonText-l94ojh-9",
+                    "isStatic": false,
+                    "rules": Array [
+                      "display:flex;flex:1;height:50px;justify-content:center;align-items:center;font-family:\\"Eina03\\",\\"robotoregular\\",sans-serif;font-size:14px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:2.4px;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Footerstyle__ButtonText",
+                  "render": [Function],
+                  "styledComponentId": "Footerstyle__ButtonText-l94ojh-9",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "Footerstyle__Button-l94ojh-2",
+                "isStatic": true,
+                "rules": Array [
+                  "padding:0;width:174px;height:50px;border-radius:3px;border:solid 1px #dddddd;background-color:#ffffff;cursor:pointer;box-sizing:content-box;display:flex;&:not(:disabled){outline:none;box-shadow:none;}&:hover{background:#ffffff radial-gradient(circle,transparent 10%,transparent 10%) center/15000%;}&:active{opacity:0.7;}",
+                ],
+              },
+              "displayName": "Footerstyle__Button",
+              "render": [Function],
+              "styledComponentId": "Footerstyle__Button-l94ojh-2",
+              "target": "button",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef>
+                  <ForwardRef
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f095",
+                          "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                        ],
+                        "iconName": "phone",
+                        "prefix": "fas",
+                      }
+                    }
+                  />
+                </ForwardRef>,
+                <ForwardRef>
+                  End Call
+                </ForwardRef>,
+              ],
+              "id": "dialFooterEndCallButton",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ForwardRef
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f095",
+                          "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                        ],
+                        "iconName": "phone",
+                        "prefix": "fas",
+                      }
+                    }
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f095",
+                        "M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z",
+                      ],
+                      "iconName": "phone",
+                      "prefix": "fas",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Footerstyle__TextDialEndCallIcon-l94ojh-8",
+                      "isStatic": false,
+                      "rules": Array [
+                        "font-size:24px;transform:rotate(180deg);color:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "Footerstyle__TextDialEndCallIcon",
+                    "render": [Function],
+                    "styledComponentId": "Footerstyle__TextDialEndCallIcon-l94ojh-8",
+                    "target": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  },
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Footerstyle__EndCallIconContainer-l94ojh-7",
+                    "isStatic": false,
+                    "rules": Array [
+                      "height:50px;width:44px;justify-content:center;display:flex;align-items:center;position:relative;",
+                      "background-color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Footerstyle__EndCallIconContainer",
+                  "render": [Function],
+                  "styledComponentId": "Footerstyle__EndCallIconContainer-l94ojh-7",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "End Call",
+                },
+                "ref": null,
+                "rendered": "End Call",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Footerstyle__ButtonText-l94ojh-9",
+                    "isStatic": false,
+                    "rules": Array [
+                      "display:flex;flex:1;height:50px;justify-content:center;align-items:center;font-family:\\"Eina03\\",\\"robotoregular\\",sans-serif;font-size:14px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:2.4px;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Footerstyle__ButtonText",
+                  "render": [Function],
+                  "styledComponentId": "Footerstyle__ButtonText-l94ojh-9",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "Footerstyle__Button-l94ojh-2",
+                "isStatic": true,
+                "rules": Array [
+                  "padding:0;width:174px;height:50px;border-radius:3px;border:solid 1px #dddddd;background-color:#ffffff;cursor:pointer;box-sizing:content-box;display:flex;&:not(:disabled){outline:none;box-shadow:none;}&:hover{background:#ffffff radial-gradient(circle,transparent 10%,transparent 10%) center/15000%;}&:active{opacity:0.7;}",
+                ],
+              },
+              "displayName": "Footerstyle__Button",
+              "render": [Function],
+              "styledComponentId": "Footerstyle__Button-l94ojh-2",
+              "target": "button",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <ForwardRef>
+                  <ForwardRef
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f6a9",
+                          "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                        ],
+                        "iconName": "volume-mute",
+                        "prefix": "fas",
+                      }
+                    }
+                  />
+                </ForwardRef>,
+                <ForwardRef
+                  id="dialFooterParkCallText"
+                >
+                  Park Call
+                </ForwardRef>,
+              ],
+              "id": "dialFooterParkCallButton",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <ForwardRef
+                    icon={
+                      Object {
+                        "icon": Array [
+                          512,
+                          512,
+                          Array [],
+                          "f6a9",
+                          "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                        ],
+                        "iconName": "volume-mute",
+                        "prefix": "fas",
+                      }
+                    }
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "icon": Object {
+                      "icon": Array [
+                        512,
+                        512,
+                        Array [],
+                        "f6a9",
+                        "M215.03 71.05L126.06 160H24c-13.26 0-24 10.74-24 24v144c0 13.25 10.74 24 24 24h102.06l88.97 88.95c15.03 15.03 40.97 4.47 40.97-16.97V88.02c0-21.46-25.96-31.98-40.97-16.97zM461.64 256l45.64-45.64c6.3-6.3 6.3-16.52 0-22.82l-22.82-22.82c-6.3-6.3-16.52-6.3-22.82 0L416 210.36l-45.64-45.64c-6.3-6.3-16.52-6.3-22.82 0l-22.82 22.82c-6.3 6.3-6.3 16.52 0 22.82L370.36 256l-45.63 45.63c-6.3 6.3-6.3 16.52 0 22.82l22.82 22.82c6.3 6.3 16.52 6.3 22.82 0L416 301.64l45.64 45.64c6.3 6.3 16.52 6.3 22.82 0l22.82-22.82c6.3-6.3 6.3-16.52 0-22.82L461.64 256z",
+                      ],
+                      "iconName": "volume-mute",
+                      "prefix": "fas",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": undefined,
+                    "componentStyle": ComponentStyle {
+                      "componentId": "Footerstyle__TextVolumeOffIcon-l94ojh-11",
+                      "isStatic": false,
+                      "rules": Array [
+                        "font-size:24px;color:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "Footerstyle__TextVolumeOffIcon",
+                    "render": [Function],
+                    "styledComponentId": "Footerstyle__TextVolumeOffIcon-l94ojh-11",
+                    "target": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                    Symbol(Symbol.hasInstance): [Function],
+                  },
+                },
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Footerstyle__VolumeOffIconContainer-l94ojh-10",
+                    "isStatic": false,
+                    "rules": Array [
+                      "height:50px;width:44px;justify-content:center;display:flex;align-items:center;position:relative;",
+                      "background-color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Footerstyle__VolumeOffIconContainer",
+                  "render": [Function],
+                  "styledComponentId": "Footerstyle__VolumeOffIconContainer-l94ojh-10",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Park Call",
+                  "id": "dialFooterParkCallText",
+                },
+                "ref": null,
+                "rendered": "Park Call",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Footerstyle__ButtonText-l94ojh-9",
+                    "isStatic": false,
+                    "rules": Array [
+                      "display:flex;flex:1;height:50px;justify-content:center;align-items:center;font-family:\\"Eina03\\",\\"robotoregular\\",sans-serif;font-size:14px;font-weight:normal;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:2.4px;color:",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "Footerstyle__ButtonText",
+                  "render": [Function],
+                  "styledComponentId": "Footerstyle__ButtonText-l94ojh-9",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                },
+              },
+            ],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": undefined,
+              "componentStyle": ComponentStyle {
+                "componentId": "Footerstyle__Button-l94ojh-2",
+                "isStatic": true,
+                "rules": Array [
+                  "padding:0;width:174px;height:50px;border-radius:3px;border:solid 1px #dddddd;background-color:#ffffff;cursor:pointer;box-sizing:content-box;display:flex;&:not(:disabled){outline:none;box-shadow:none;}&:hover{background:#ffffff radial-gradient(circle,transparent 10%,transparent 10%) center/15000%;}&:active{opacity:0.7;}",
+                ],
+              },
+              "displayName": "Footerstyle__Button",
+              "render": [Function],
+              "styledComponentId": "Footerstyle__Button-l94ojh-2",
+              "target": "button",
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "Footerstyle__ButtonsWrapper-l94ojh-1",
+            "isStatic": true,
+            "rules": Array [
+              "display:flex;flex-direction:row;width:560px;justify-content:space-between;align-items:center;",
+            ],
+          },
+          "displayName": "Footerstyle__ButtonsWrapper",
+          "render": [Function],
+          "styledComponentId": "Footerstyle__ButtonsWrapper-l94ojh-1",
+          "target": "div",
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "Footerstyle__FooterMainContainer-l94ojh-0",
+          "isStatic": false,
+          "rules": Array [
+            "height:100px;position:fixed;bottom:0;left:0;right:0;background-color:",
+            [Function],
+            ";display:flex;justify-content:center;",
+          ],
+        },
+        "displayName": "Footerstyle__FooterMainContainer",
+        "render": [Function],
+        "styledComponentId": "Footerstyle__FooterMainContainer-l94ojh-0",
+        "target": "div",
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
