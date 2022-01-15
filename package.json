@@ -90,7 +90,7 @@
     "pre-commit": "^1.2.2",
     "react-addons-test-utils": "^15.6.2",
     "react-test-renderer": "^16.2.0",
-    "shelljs": "^0.8.2",
+    "shelljs": "^0.8.5",
     "stylelint": "^9.5.0",
     "stylelint-config-recommended": "^2.1.0",
     "stylelint-config-styled-components": "^0.1.1",
